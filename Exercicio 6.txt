@@ -1,0 +1,2 @@
+*(pulo + 2) // pegara o endereço da primeira posição do vetor e vai acresentar 2  pegando assim 
+	      o valor do terceiro elemento do vetor.
