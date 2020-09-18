@@ -1,3 +1,9 @@
+O programa basicamente mostra duas formas diferentes de acessar o vetor.
+uma por meio da posição e outra por meio do ponteiro. mostrando que
+são equivalentes.Também é mostrado o enderoço de memoria a cada passo
+pulando 4 bytes por ser referenciado a um inteiro.
+
+
 i = 0vet[0] = 1.1*(f + 0) = 1.1&vet[0] = 61FDF0(f + 0) = 61FDF0
 i = 1vet[1] = 2.2*(f + 1) = 2.2&vet[1] = 61FDF4(f + 1) = 61FDF4
 i = 2vet[2] = 3.3*(f + 2) = 3.3&vet[2] = 61FDF8(f + 2) = 61FDF8
