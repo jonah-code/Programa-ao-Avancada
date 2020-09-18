@@ -1,6 +1,6 @@
 O programa basicamente mostra duas formas diferentes de acessar o vetor.
 uma por meio da posição e outra por meio do ponteiro. mostrando que
-são equivalentes.Também é mostrado o enderoço de memoria a cada passo
+são equivalentes.Também é mostrado o endereço de memoria a cada passo
 pulando 4 bytes por ser referenciado a um inteiro.
 
 
