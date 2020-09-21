@@ -6,7 +6,7 @@ int main(){
   }			      
 }			     
 
-O programa acima imprime os valores da variavel vet caminhado na memoria acrecentando 1 ao ponteiro.
+O programa acima imprime os valores da variavel vet caminhado na memoria ao acrecentar 1 ao ponteiro.
 será impresso 4, 9 ,13.
 
 int main(){
