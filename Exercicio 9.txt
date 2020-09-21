@@ -1,0 +1,21 @@
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%d ",*(vet+i)); // 
+  }			      
+}			     
+
+O programa acima imprime os valores da variavel vet caminhado na memoria acrecentando 1 ao ponteiro.
+será impresso 4, 9 ,13.
+
+int main(){
+  int vet[] = {4,9,13};
+  int i;
+  for(i=0;i<3;i++){
+  printf("%X ",vet+i);
+  }
+}
+
+O programa acima impime o endereço de memoria de cada elemento da variavel vet.
+
