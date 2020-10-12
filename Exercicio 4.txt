@@ -10,7 +10,7 @@
   *p2 = 29.0; //armazena 29.0 no valor do de p2 que aponta para temp
   printf("%.1f \n", temp); //saída = 29.0
 
-  /* (c) */
+ /* (c) */
   p3 = &nome[0]; //p3 recebe o endereço do primeiro elemento de um vetor de caracteres, ou seja, uma string
   aux = *p3; //aux recebe o valor apontado pelo ponteiro p3 no caso o caracter P
   printf("%c \n", aux); //saída = P
