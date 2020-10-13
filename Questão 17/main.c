@@ -13,12 +13,12 @@ int main()
     int v1[n],v2[n],v3[n];
     for(int i=0;i<n;i++){
         printf("digite o %i elemento do v1",i);
-        scanf("%d",&v1[i]);
+        scanf("%d",&v1[n]);
 
     }
      for(int i=0;i<n;i++){
         printf("digite o %i elemento do v2",i);
-        scanf("%d",&v2[i]);
+        scanf("%d",&v1[n]);
     }
     soma(v1,v2,v3,n);
 
