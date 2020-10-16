@@ -1,7 +1,7 @@
-p == &i;	       //  1 verdadeiro, pois o enderço de i foi atribuido o ponteiro sendo P sendo assim são iguais
+p == &i;	       //  1 verdadeiro, pois o endereço de i foi atribuido o ponteiro sendo P sendo assim são iguais
 *p - *q;	      //  -2 , pois está se pegando o conteudo de p que é 3 menos o conteudo de q que é 5  
 **&p;		     //  3 
-3 - *p/(*q) + 7;    // 10 , pegando o conteudo de p e dividindo por pelo de que temos 0 , logo ficamos com 3+7.
+3 - *p/(*q) + 7;    // 10 , pegando o conteudo de p e dividindo por pelo de q que temos 0 , logo ficamos com 3+7.
                    
 		   	
 
