@@ -1,0 +1,13 @@
+para um numero de 10000 elementos temos que 
+
+para o qsort 
+teste 1 = tempo: 0.001000
+teste 2 = tempo: 0.002000
+
+uma media de = 0.0015s
+
+para a funçao
+teste 1 = tempo: 1.439000
+teste 2 = tempo: 1.452000
+
+media de =1.4455s

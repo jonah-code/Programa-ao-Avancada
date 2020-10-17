@@ -4,10 +4,10 @@
 
 int comparacao (float* a, float * b)
 {
-   if ( *a - *b <1 ) {
+   if ( *a <*b ) {
    return 0;
    }
-   if ( *a - *b > 1){
+   if ( *a > *b ){
     return 1;
    }
 
@@ -41,18 +41,16 @@ int main()
 
 
     for (int i=0;i<n;i++){
-        printf("digite o %d elemento",i);
-        scanf("%f",&pont[i]);
+        pont[i] = rand()%100;
     }
     tempoEX = clock();
     int(*p)( float*,  float*) = comparacao;
     ordene(n, pont, p);
     tempoEX = clock()- tempoEX;
-    printf("tempo: %f\n",((float)tempoEX)/CLOCKS_PER_SEC);
     for(int i =0; i<n;i++){
         printf("%f\n",pont[i]);
     }
-
+    printf("tempo: %f\n",((float)tempoEX)/CLOCKS_PER_SEC);
     free(pont);
     return 0;
 }
